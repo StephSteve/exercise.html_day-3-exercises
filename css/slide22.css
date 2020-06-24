@@ -1,0 +1,22 @@
+.card {
+    background-color: midnightblue;
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+    border: solid midnightblue;
+}
+
+.card:hover{
+
+    animation: slide 5s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes slide {
+ 
+
+    50% { transform: translate(1000px, 0px);
+
+    }
+}
