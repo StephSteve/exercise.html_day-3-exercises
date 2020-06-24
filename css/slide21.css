@@ -15,7 +15,7 @@ margin-left: 25%;
 
 }
 
-.row1:hover {
+#box1-1:hover {
 
     animation: shake 1s;
     animation-iteration-count: infinite;
@@ -31,34 +31,31 @@ margin-left: 25%;
 
 }
 
-.row2:hover {
+#box2-1:hover {
 
-    animation: shake 1s;
+    animation: fade 3s;
     animation-iteration-count: infinite;
 
 }
 
-@keyframes shake {
+@keyframes fade {
  
 
-    0% { transform: translate(10px, 10px);
-
-    }
+    0% { opacity: 0;}
+    100%{opacity: 1;}
 
 }
 
-.row3:hover {
+#box3-1:hover {
 
-    animation: shake 1s;
+    animation: jelly 2s;
     animation-iteration-count: infinite;
 
 }
 
-@keyframes shake {
+@keyframes jelly {
  
 
-    0% { transform: translate(10px, 10px);
-
-    }
-
+    0% { transform: skewX(7deg);}
+  100% { transform: skewY(7deg);}
 }
