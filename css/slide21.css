@@ -59,3 +59,17 @@ margin-left: 25%;
     0% { transform: skewX(7deg);}
   100% { transform: skewY(7deg);}
 }
+
+#box1-2:hover {
+
+    animation: tada 2s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes tada {
+ 
+
+    0% { transform: scale(1);}
+    25% {transform: scale(.5);}
+}
