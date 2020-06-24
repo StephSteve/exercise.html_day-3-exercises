@@ -1,0 +1,22 @@
+.column1, .column2, .column3, .column4 {
+
+border: 20px solid White;
+background-color: mediumslateblue;
+border-radius: 10px;
+}
+
+.row1, .row2, .row3{
+    float: left;
+}
+
+#container {
+
+margin-left: 25%;
+
+}
+
+#box1-1 :hover {
+
+   transform-box: ; 
+
+}
