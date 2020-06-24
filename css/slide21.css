@@ -15,8 +15,50 @@ margin-left: 25%;
 
 }
 
-#box1-1 :hover {
+.row1:hover {
 
-   transform-box: ; 
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+ 
+
+    0% { transform: translate(10px, 10px);
+
+    }
+
+}
+
+.row2:hover {
+
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+ 
+
+    0% { transform: translate(10px, 10px);
+
+    }
+
+}
+
+.row3:hover {
+
+    animation: shake 1s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes shake {
+ 
+
+    0% { transform: translate(10px, 10px);
+
+    }
 
 }
